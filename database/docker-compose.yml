@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:11.9
+    container_name: "vuetify-sample-db-container"
+    environment:
+      POSTGRES_PASSWORD: "#password#"
+    ports:
+      - "55432:5432"

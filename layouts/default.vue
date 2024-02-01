@@ -81,6 +81,11 @@ export default {
           title: 'Inspire',
           to: '/inspire',
         },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Combobox',
+          to: '/combobox',
+        },
       ],
       miniVariant: false,
       right: true,
@@ -90,3 +95,10 @@ export default {
   },
 }
 </script>
+
+<style>
+.container {
+  width: 100%;
+  height: 100%;
+}
+</style>
